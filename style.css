@@ -16,7 +16,6 @@
 
 body{
     background-color: #030923;
-    height: 120vh;
 }
 
 span{
@@ -36,7 +35,7 @@ header{
     position: relative;
     background: #292E44;
     z-index: 100;
-    margin: 35px;
+    margin: 35px 35px 0px;
     padding: 7px;
     display: flex;
     justify-content: space-between;
@@ -82,7 +81,7 @@ header a button:hover{
     max-width: 45%;
     text-align: left;
     color: var(--main-2-color);
-    padding: 120px 10px 0 150px;
+    padding: 0px 10px 0 150px;
 }
 
 .home .container .content-text h4{
@@ -122,6 +121,19 @@ header a button:hover{
 .home .container .content-text a i{ 
     color: #000;
     font-size: 1.2rem;
+}
+
+.home .container .content-img{
+    padding: 0px 150px 0 10px;
+}
+
+.home .container .content-img img{
+    object-fit: cover;
+    height: 900px;
+    width: 700px;
+    user-select: none;
+    filter: drop-shadow( 100px 50px 200px var(--main-color));
+    overflow: hidden;
 }
 
 
