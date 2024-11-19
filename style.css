@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    border: none;
+    text-transform: uppercase;
+}
+
+:root{
+    --main-color: #505DFF;
+    --main-2-color: #FFFFFF;
+}
+
+body{
+    background-color: #030923;
+    height: 120vh;
+}
+
+span{
+    color: #505DFF;
+}
+
+a{
+    color: var(--main-2-color);
+    transition: .3s;
+}
+
+a:hover{
+    color: var(--main-color);
+}
+
+header{
+    position: relative;
+    background: #292E44;
+    z-index: 100;
+    margin: 35px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    user-select: none;
+}
+
+header h2{
+    font-size: 22px;
+    padding-left: 25px;
+    color: var(--main-2-color);
+    font-style: italic;
+    user-select: text;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+header a button{
+    padding: 13px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    transition: .8s;
+}
+
+header a button:hover{
+    border: 3px solid #000;
+    background: #ffffffde;
+}
+
+.home .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .container .content-text{
+    max-width: 45%;
+    text-align: left;
+    color: var(--main-2-color);
+    padding: 120px 10px 0 150px;
+}
+
+.home .container .content-text h4{
+    text-align: right;
+    font-size: large;
+    font-weight: 300;
+}
+
+.home .container .content-text h1{
+    font-size: 9rem;
+    text-align: right;
+}
+
+.home .container .content-text p{
+    font-weight: 250;
+    font-size: 1.2rem;
+    line-height: 150%;
+    padding: 0 0 50px;
+}
+
+.home .container .content-text .hero-btns a{
+    padding: 12px;
+    border: 7px solid #292E44;
+    border-radius: 50px;
+    background-color: var(--main-2-color);
+    user-select: none;
+
+}
+
+.home .container .content-text .hero-btns a button{
+    padding:0 40px;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+.home .container .content-text a i{ 
+    color: #000;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
