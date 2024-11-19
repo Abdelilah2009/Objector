@@ -108,7 +108,7 @@ header a button:hover{
     border-radius: 50px;
     background-color: var(--main-2-color);
     user-select: none;
-
+    transition: .5s;
 }
 
 .home .container .content-text .hero-btns a button{
@@ -132,7 +132,7 @@ header a button:hover{
     height: 900px;
     width: 700px;
     user-select: none;
-    filter: drop-shadow( 100px 50px 200px var(--main-color));
+    filter: drop-shadow( 50px 50px 100px var(--main-color));
     overflow: hidden;
 }
 
