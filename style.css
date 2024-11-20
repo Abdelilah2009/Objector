@@ -43,7 +43,7 @@ header{
     border-radius: 50px;
     user-select: none;
     opacity: 1;
-    animation: to-bottom .9s ease forwards;
+    animation: to-bottom 1s ease forwards;
 }
 
 header h2{
@@ -71,6 +71,17 @@ header a button{
 header a button:hover{
     border: 3px solid #000;
     background: #ffffffde;
+}
+
+header .mobile .menu{
+    font-size: 2rem;
+    padding: 0px 20px 0 0;
+    color: var(--main-color);
+}
+
+header .mobile,
+header nav ul a button{
+    display: none;
 }
 
 .home .container{
@@ -167,6 +178,8 @@ header a button:hover{
 
 .home .last-s .btns-social{
     font-size: 2rem;
+    opacity: 1;
+    animation: to-top 5s ease forwards;
 }
 
 .home .last-s .btns-social a i{
@@ -188,6 +201,8 @@ header a button:hover{
     transition: .4s;
     color: var(--main-2-color);
     user-select: none;
+    opacity: 1;
+    animation: to-bottom 6s ease forwards;
 }
 
 /* .home .last-s .btn-scroll i{
@@ -198,6 +213,37 @@ header a button:hover{
     background-color: var(--main-color);
     color: #000;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 899px) {
+    header .mobile{
+        display: block;
+    }
+
+    /* header .mobile .menu{
+        
+    } */
+
+    header a button{
+        display: none;
+    }
+
+    header nav ul,
+    header nav ul a button{
+        display: block;
+        position: absolute;
+        top: 0vh;
+        right: 400;
+        
+    }
+}
+
+
+
+
+
 
 
 
@@ -235,16 +281,27 @@ header a button:hover{
     }
  }
 
-  @keyframes to-right{
+ @keyframes to-top{
     0%{
         opacity: 0;
-        transform: translateY(-50%);
+        transform: translateY(0);
     }
     100%{
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(-50%);
     }
  }
+
+ @keyframes to-right{
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
   @keyframes to-left{
     0%{
