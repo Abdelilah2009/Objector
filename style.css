@@ -136,42 +136,33 @@ header a button:hover{
     overflow: hidden;
 }
 
+.home .last-s{
+    position: absolute;
+    bottom: 40px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.home .last-s .btns-social{
+    font-size: 2rem;
+}
+
+.home .last-s .btns-social a i{
+    font-weight: 100;
+    padding-right: 50px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home .last-s .btn-scroll{
+    position: fixed;
+    display: flex;
+    bottom: 60px;
+    right: 50%;
+    justify-content: center;
+    font-size: 2rem;
+    background: linear-gradient(0deg, rgba(252,252,255,1) 0%, rgba(136,139,155,0.5466561624649859) 46%, rgba(15,22,50,0) 100%);
+    padding: 10px 8px;
+    border-radius: 50px;
+}
 
